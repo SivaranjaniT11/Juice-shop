@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <title>Juice-shop</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+  <!--Navber-->
+  <nav class="navbar navbar-expand-lg bg-warning sticky-sm-top bg-opacity-75">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="logo.png" alt="Logo" width="30" height="22" class="d-inline-block align-text-top"><b> Juice</b>
+      </a>
+      <!--Navber-toggler-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ml-5 text-white">
+          <li class="nav-item mx-2">
+            <a class="nav-link text-black" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link text-black" aria-current="page" href="#about">About</a>
+          </li>
+          <li class="nav-item dropdown text-black mx-2">
+            <a class="nav-link dropdown-toggle  text-black" href="#menu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu
+            </a>
+            <ul class="dropdown-menu bg-warning bg-opacity-75">
+              <li> <a class="nav-link text-black hover-orange" aria-current="page" href="#apple"> Apple juice</a></li>
+              <li><a class="nav-link text-black" aria-current="page" href="#orange">Orange Juice</a></li>
+              <li><a class="nav-link text-black" aria-current="page" href="#pineapple">Pineapple Juice</a></li>
+              <li><a class="nav-link text-black" aria-current="page" href="#grape">Graphes Juice</a></li>
+              <li><a class="nav-link text-black" aria-current="page" href="#strawberry">Strawberry Juice</a></li>
+              <li><a class="nav-link text-black" aria-current="page" href="#watermelon">watermelon Juice</a></li>
+            </ul>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link text-black" aria-current="page" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <button type="button" class="btn"><i class="fa-solid fa-heart"></i></button>
+        <button type="button" class="btn"><i class="fa-solid fa-cart-shopping mx-2"></i></button>
+        <button type="button" class="btn btn-primary ml-5"><i class="fa-solid fa-user mx-2"></i>Sign in</button>
+      </div>
+    </div>
+  </nav>
+  <!--Navbar end-->
+  <!--Carousel-->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="staw-ice.png" class="d-block w-100" alt="image">
+      </div>
+      <div class="carousel-item">
+        <img src="beetroot.png" class="d-block w-100" alt="image">
+      </div>
+      <div class="carousel-item">
+        <img src="cucumber.png" class="d-block w-100" alt="image">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+   <!--carousel end-->
+  <!--About-->
+  <section id="about">
+    <br>
+    <h1 class="text-center mt-5">ABOUT US</h1>
+    <div class="container-fluid">
+      <div class="card text-bg-success">
+        <img src="applegreen.png" class="card-img" alt="image">
+        <div class="card-img-overlay">
+          <p class="card-text mb-5 text-black"><b> They say juicing can reduce your risk of cancer,
+              boost your immune system, remove toxins from your body, aid digestion and help you lose weight.</b></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Card Menu-->
+  <section id="menu">
+  <h1 class="text-center mt-3">MENU</h1>
+  <div class="container-fluid">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card text-bg-warning">
+          <div id="apple">
+            <img src="b2.png" class="card-img-top" alt="Image-juice">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">Apple</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-bg-warning">
+          <div id="orange">
+            <img src="orange.png" class="card-img-top" alt="Image-juice" width="50">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">Orange</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-bg-warning">
+          <div id="pineapple">
+            <img src="anasi.png" class="card-img-top" alt="Image-juice">
+          </div>
+          <div class="card-body ">
+            <h5 class="card-title text-center">Pineapple</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card text-bg-warning">
+          <div id="grape">
+            <img src="grape.png" class="card-img-top" alt="Image-juice">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">Graphes</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-bg-warning">
+          <div id="strwaberry">
+            <img src="Strawberry.png" class="card-img-top" alt="Image-juice" width="50">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">Strawberry</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-bg-warning">
+          <div id="watermelon">
+            <img src="watermelon.png" class="card-img-top" alt="Image-juice">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">watermelon</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!--card menu end-->
+  <!--Contact-->
+  <section id="contact">
+    <h1 class="text-center mt-3">CONTACT US</h1>
+    <div class="container bg-warning">
+      <div class="position-relative">
+      <br>
+      <div class="row">
+        <div class="col-md-4 py-1 py-md-0">
+          <div class="form-group">
+            <input type="text" class="form-control" id="usr" placeholder="Name">
+          </div>
+        </div>
+        <div class="col-md-4 py-1 py-md-0">
+          <div class="form-group">
+            <input type="email" class="form-control" id="eml" placeholder="Email">
+          </div>
+        </div>
+        <div class="col-md-4 py-1 py-md-0">
+          <div class="form-group">
+            <input type="number" class="form-control" id="phn" placeholder="Phone">
+          </div>
+        </div>
+      </div>
+      <br>
+      <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+        <option selected>Open this select menu</option>
+        <option value="1">Apple Juice</option>
+        <option value="2">Orange Juice</option>
+        <option value="3">Pineapple Juice</option>
+        <option value="4">Graphes Juice</option>
+        <option value="5">Strawberry Juice</option>
+        <option value="6">watermelon Juice</option>
+      </select>
+      <div>
+        <button type="button" class="btn btn-primary mt-5  p-2 position-absolute start-50 translate-middle">send Message</button>
+      </div>
+    </div>
+      <br>
+    </div>
+  </section>
+  <br>
+  <!--Contact end-->
+  <!--Footer-->
+  <footer class="bg-warning p-5 mt-4">
+    <h1 class="text-center">Juice-shop</h1>
+    <div class="icons text-center">
+      <i class="fa-brands fa-square-instagram"></i>
+      <i class="fa-brands fa-square-twitter"></i>
+      <i class="fa-brands fa-square-whatsapp"></i>
+    </div>
+    <div class="copyright text-center">
+      &copy; Copyright <strong>Juice-shop</strong> .All Rights Reserved
+    </div>
+  </footer>
+  <!--Footer End-->
+</body>
+</html>
